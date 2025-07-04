@@ -704,6 +704,20 @@ input[type='radio'],input[type='checkbox']{
 .work__description{
     font-size: var(--large-font-size);
 }
+.achievements{
+    background-color: var(--container-color);
+}
+.achievements__container{
+    grid-template-columns: repeat(3, 1fr);
+}
+.achievement__card{
+    position: relative;
+    cursor: pointer;
+}
+.achievement__img{
+    vertical-align: middle;
+    border-radius: .5rem;
+}
 
 /* Work Hover */
 .work__card:hover .work__details{
